@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+    
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.hyperlink{
+    font-size: 25px;
+    display: flex;
+    width: 40vh;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 9, 128);
+    font-weight: bold;
+
+}
+input{
+    padding: 10px;
+    border: none;
+    text-align: center;
+
+
+}
+button{
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+
+
+}
+.hero-section{
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+
+}
+h1{
+    font-size: 50px;
+    
+}
+p{
+    font: 25px;
+    
+
+}
+span{
+    color: green;
+}
+img{
+    border-radius: 50%;
+    margin-right: 30px;
+    height:250px
+}
+.left-hero-section{
+    margin-left: 30px;
+}
+footer p{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 200px;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+button:hover{
+    background-color: greenyellow;
+}
